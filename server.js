@@ -45,7 +45,7 @@ require('./config/passport')(passport);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ 
-  origin: ["http://localhost:3001", "https://wow-frontedn-y73e.vercel.app"], 
+  origin: ["wowlifestyle.online", "https://www.wowlifestyle.online","www.wowlifestyle.online"], 
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true, 
   exposedHeaders: ["Content-Length", "Authorization"],
